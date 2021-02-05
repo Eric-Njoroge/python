@@ -5,7 +5,7 @@
 import time
 import datetime
 
-#tkaes the date today and stores in to variable date
+#takes the date today and stores it to a variable date
 date = datetime.date.today()
 
 #takes the day from the date and stores the first three letters of the day
