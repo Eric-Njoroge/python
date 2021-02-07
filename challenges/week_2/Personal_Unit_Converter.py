@@ -4,12 +4,11 @@ print("Hello ",name,", welcome to your personal unit converter" )
 
 print ("Please choose which conversion you would like to perform:")
 
-#2print ("1 - convert cm to inches \n 2 - convert percent to letter grade \n 3- convert cups to ml \n 4- convert grams to ounces \n5- convert fahrenheit to celsius")
+
 choice  = input("1- convert cm to inches \n2- convert percent to letter grade \n3- convert cups to ml \n4- convert grams to ounces \n5- convert fahrenheit to celsius \nChoice: ")
 
 def SwitchExample():
-    #choice = {
-       # 1: {
+    
  if (choice == "1") :
   value = float(input ("Value in cm to convert: "))
   inches = value / 2.54
